@@ -35,7 +35,7 @@ docker run -d --name db -p 3306:3306 -e "MYSQL_ROOT_PASSWORD=12345678" -v /opt/m
 ```
 jenkins ....
 
-docker run -d --name jenkins2 -p 9090:8080 -v /Users/rossanasuarez/295devops/clase-3/clase3-docker/docker-volumes/data/jenkins/:/var/jenkins_home jenkins:2.60.3 
+docker run -d --name jenkins2 -p 9090:8080 -v /Users/rossanasuarez/295devops/clase-3/clase3-docker/docker-volumes/data/jenkins/:/var/jenkins_home jenkins/jenkins:latest 
 
 /var/jenkins_home/secrets/initialAdminPassword
 
