@@ -3,7 +3,7 @@
 docker ps 
 ```
 ```
-docker run -d -p 8080:8080 jenkins:2.60.3
+docker run -d -p 8080:8080 jenkins/jenkins:latest
 ```
 
 ### renonbrar contenedor
